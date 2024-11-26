@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+
+		"outDir": "./dist",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"typeRoots": ["src/types"],
+		"noImplicitAny": false,
+		"strictNullChecks": false,
+		"strictFunctionTypes": false,
+		"noImplicitThis": false
+	},
+	"include": ["src/**/*.ts", "src/types/**/*.d.ts"]
+}
